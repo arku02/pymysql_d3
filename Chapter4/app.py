@@ -50,7 +50,7 @@ def hierachical_data():
 
 if __name__ == "__main__":
     app.run(
-        host='0.0.0.0',
+        host=localhost,
         debug=True, # 檔案更新網頁也會跟著更新
         port=5000
     )
